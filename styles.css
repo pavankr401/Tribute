@@ -1,0 +1,70 @@
+#outer-layer{
+  background-color: lightgrey;
+  margin: 30px 5px;
+  border-radius: 5px;
+}
+h1,p{
+  text-align: center;
+}
+h1{
+  font-size: 40px;
+  padding-top: 40px;
+}
+#img-div{
+  
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  margin: 10px;
+  max-width: 100%;
+}
+#image{
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+#img-div figcaption{
+  padding: 10px 5px;
+  text-align: center;
+  font-size: 17px;
+}
+
+#tribute-info h2{
+    text-align: center;
+    margin: 50px;
+    font-size: 20px;
+}
+
+#tribute-info ul{
+  max-width: 550px;
+  margin: auto;
+  font-size: 18px;
+}
+
+ul > li{
+  line-height: 25px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.quote{
+  max-width: 550px;
+  line-height: 25px;
+  margin: 40px auto;
+  padding-left: 10px;
+  text-align: left;
+  font-size: 18px;
+  
+}
+.prime{
+  margin-top: -25px;
+}
+
+footer{
+  font-size: 20px;
+  font-style: bold;
+  padding-bottom: 20px;
+}
